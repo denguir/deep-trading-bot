@@ -10,7 +10,7 @@ the agent at each time iteration by measuring the variation of its portfolio.
 <img src="https://bit.ly/375cTAU" align="center" border="0" alt="J(\theta) = E[\sum_{t=0}^{t=T} r_t]" width="122" height="53" />
 
 The gradient of the objective function is derived using REINFORCE, which is approximated as follows 
-<img src="https://bit.ly/3h0Id8F" align="center" border="0" alt="\nabla_\theta J(\theta) = \sum_{t=0}^{t=T-1} \nabla_\theta \log \pi_\theta(a_t|s_t) [\sum_{j=t}^{j=T-1} \gamma^{j-t} r_j]" width="347" height="57" />
+<img src="https://bit.ly/3h0Id8F" align="center" border="0" alt="\nabla_\theta J(\theta) = \sum_{t=0}^{t=T-1} \nabla_\theta \log \pi_\theta(a_t|s_t) G_t" width="264" height="53" />
 
 ## Network architecture
 The state s<sub>t</sub> is defined as being the last 60 feature vectors [x<sub>t-59</sub> ... x<sub>t</sub>].
