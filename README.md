@@ -43,15 +43,15 @@ Good site for datasets: https://www.cryptodatadownload.com/
 The following structure is expected as input in a csv format:
 
 Data columns (total 8 columns):
- #   Column             Dtype  
+    Column             Dtype  
 ---  ------             -----  
  0   Timestamp          int64  
- 1   Open               float64
- 2   High               float64
- 3   Low                float64
- 4   Close              float64
- 5   Volume_(BTC)       float64
- 6   Volume_(Currency)  float64
+ 1   Open               float64  
+ 2   High               float64  
+ 3   Low                float64  
+ 4   Close              float64  
+ 5   Volume_(BTC)       float64  
+ 6   Volume_(Currency)  float64  
 
 
 ## References
